@@ -1,0 +1,88 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body{
+    background: rgb(107, 107, 241) url(img/bg.jpg) no-repeat;
+    font:  normal 15pt Arial;
+}
+
+header{
+    color: white;
+    text-align: center;
+    margin: 30px;
+}
+
+section{
+    background: rgba(255, 255, 255, 0.1);
+    backdrop-filter: blur(10px);
+    -webkit-backdrop-filter: blur(10px);
+    border-radius: 10px;
+    padding: 15px;
+    width: 500px;
+    margin: auto;
+    box-shadow: 3px 3px 10px rgba(0, 0, 0, 0.274);
+    text-align: center;
+}
+
+#data {
+    padding-bottom: 10px;
+    color: white;
+}
+
+#dia {
+    width: 50px;
+    border: none;
+    height: 20px;
+    padding: 5px;
+    border-radius: 5px;
+}
+
+#mes {
+    width: 80px;
+    border: none;
+    height: 20px;
+    padding: 5px;
+    text-transform: capitalize;
+    border-radius: 5px;
+}
+
+#btn {
+    margin-bottom: 10px;
+    width: 80px;
+    height: 30px;
+    border-radius: 5px;
+    border: none;
+    text-transform: uppercase;
+}
+
+#btn:hover {
+    background: rgba(255, 255, 255, 0.1);
+    backdrop-filter: blur(10px);
+    -webkit-backdrop-filter: blur(10px);
+    color: white;
+    cursor: pointer;
+}
+
+#foto{
+    padding-top: 5px;
+}
+
+#res {
+    color: white;
+    align-items: center;
+    padding: 5px;
+}
+
+#prev{
+    color: white;
+    padding: 10px;
+}
+
+footer{
+    color: white;
+    text-align: center;
+    font-style: italic;
+}
